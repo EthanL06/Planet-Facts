@@ -1,0 +1,31 @@
+.hover1:hover:before {
+  background-color: #def4fc;
+}
+
+.hover2:hover:before {
+  background-color: #f7cc7f;
+}
+
+.hover3:hover:before {
+  background-color: #545bfe;
+}
+
+.hover4:hover:before {
+  background-color: #ff6a45;
+}
+
+.hover5:hover:before {
+  background-color: #fccb6b;
+}
+
+.hover6:hover:before {
+  background-color: #ecad7a;
+}
+
+.hover7:hover:before {
+  background-color: #65f0d5;
+}
+
+.hover8:hover:before {
+  background-color: #497efa;
+}

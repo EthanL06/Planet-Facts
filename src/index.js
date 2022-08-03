@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { sendToVercelAnalytics } from './vitals';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "./index.css";
+
+import App from "./App";
+import { PlanetProvider } from "./contexts/PlanetContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PlanetProvider>
+      <App />
+    </PlanetProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-reportWebVitals(sendToVercelAnalytics);
