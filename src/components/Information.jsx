@@ -21,7 +21,7 @@ const Information = () => {
     <>
       <CategoryButtonGroup />
 
-      <main className="flex w-full flex-col items-center gap-8 px-6 sm:gap-6 md:px-10 lg:px-40 xl:px-56">
+      <main className="animated flex w-full flex-col items-center gap-8 px-6 sm:gap-6 md:px-10 lg:px-40 xl:px-56 ">
         <div className="flex w-full flex-col items-center justify-between gap-20 pt-20 md:flex-row">
           <div className="flex h-[24rem] max-w-[28rem] flex-grow items-center justify-center sm:max-w-none md:h-[40rem]">
             <img src={image} alt={planet} className="sm:h-[26rem] md:h-auto" />

@@ -59,11 +59,16 @@
     transition: all 0.2s ease-in-out;
   }
 
-  /* .category-link:hover:before {
-    background-color: #419ebb;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
-  .category-link:active {
-    background-color: #419ebb;
-  } */
+  .animated {
+    animation: fadeIn 0.5s ease-in-out;
+  }
 }

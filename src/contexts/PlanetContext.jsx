@@ -24,6 +24,17 @@ const beforeColors = {
   neptune: "before:bg-blue",
 };
 
+const activeColors = {
+  mercury: "active:bg-aquamarine",
+  venus: "active:bg-yellow",
+  earth: "active:bg-purple",
+  mars: "active:bg-dark-red",
+  jupiter: "active:bg-light-red",
+  saturn: "active:bg-crimson",
+  uranus: "active:bg-teal",
+  neptune: "active:bg-blue",
+};
+
 const PlanetContext = React.createContext();
 
 export function PlanetProvider({ children }) {
@@ -32,6 +43,7 @@ export function PlanetProvider({ children }) {
 
   const [bgColor, setBgColor] = useState(bgColors[planet]);
   const [beforeColor, setBeforeColor] = useState(beforeColors[planet]);
+  const [activeColor, setActiveColor] = useState(activeColors[planet]);
 
   const [image, setImage] = useState(PlanetIcons.mercury[0]);
   const [geologyImg, setGeologyImg] = useState(PlanetIcons.mercury[2]);
@@ -88,6 +100,7 @@ export function PlanetProvider({ children }) {
         setGeologyImg(PlanetIcons[planet.toLowerCase()][2]);
         setBgColor(bgColors[planet.toLowerCase()]);
         setBeforeColor(beforeColors[planet.toLowerCase()]);
+        setActiveColor(activeColors[planet.toLowerCase()]);
       }
     });
   }, [planet, button]);
@@ -114,6 +127,7 @@ export function PlanetProvider({ children }) {
         button,
         bgColor,
         beforeColor,
+        activeColor,
       }}
     >
       {children}
