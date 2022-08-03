@@ -1,16 +1,13 @@
-<h1 align="center">Welcome to planet-facts 👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/planet-facts" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/planet-facts.svg">
-  </a>
-</p>
+# Planet Facts 🌌
 
 > Learn all about our solar system's planets!
 
-### 🏠 [Homepage](https://github.com/EthanL06/planet-facts)
+### 🌐 [Website](https://the-planet-facts.vercel.app/)
 
-### ✨ [Demo](https://the-planet-facts.vercel.app/)
+## Built With
 
+* <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></a>
+* <a href="https://tailwindcss.com/"><img src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/master/.github/logo-light.svg" style="width: 8rem;" /></a>
 ## Author
 
 👤 **Ethan L**
@@ -20,4 +17,4 @@
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if you like this project!
