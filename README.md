@@ -1,4 +1,4 @@
-# Planet Facts 🌌
+# 🌌 Planet Facts 
 
 > Learn all about our solar system's planets!
 
